@@ -1,0 +1,24 @@
+{
+  "name": "fm-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/sort.js",
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "build": "tsup pbt/."
+  },
+  "author": "Fernanda Andrade",
+  "license": "MIT",
+  "devDependencies": {
+    "@jest/globals": "^29.5.0",
+    "@types/jest": "^29.5.1",
+    "fast-check": "^3.9.0",
+    "ts-jest": "^29.1.0",
+    "tsup": "^6.7.0"
+  },
+  "tsup": {
+    "splitting": false,
+    "sourcemap": true,
+    "clean": true
+  }
+}
